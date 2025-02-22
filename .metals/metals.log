@@ -1,0 +1,264 @@
+2025.02.21 22:37:25 INFO  Started: Metals version 1.5.1 in folders '/home/ghost/Projects/Java/forward_me_this_clone' for client Visual Studio Code 1.97.2.[0m
+Feb 21, 2025 10:37:36 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 22, 2025 8:31:07 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 22, 2025 8:31:21 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+2025.02.22 20:31:21 INFO  running '/usr/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2025.02.22 20:31:21 WARN  no build target for: /home/ghost/Projects/Java/forward_me_this_clone/project/metals.sbt[0m
+2025.02.22 20:31:22 WARN  no build target for: /home/ghost/Projects/Java/forward_me_this_clone/project/project/metals.sbt[0m
+2025.02.22 20:31:22 INFO  no build target found for /home/ghost/Projects/Java/forward_me_this_clone/project/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.02.22 20:31:24 INFO  [info] welcome to sbt 1.10.7 (Ubuntu Java 21.0.6)[0m
+2025.02.22 20:31:29 INFO  [info] loading settings for project forward_me_this_clone-build-build-build from metals.sbt...[0m
+2025.02.22 20:31:30 INFO  [info] loading project definition from /home/ghost/Projects/Java/forward_me_this_clone/project/project/project[0m
+2025.02.22 20:31:57 INFO  [info] loading settings for project forward_me_this_clone-build-build from metals.sbt...[0m
+2025.02.22 20:31:57 INFO  [info] loading project definition from /home/ghost/Projects/Java/forward_me_this_clone/project/project[0m
+Feb 22, 2025 8:32:49 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Feb 22, 2025 8:33:34 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Feb 22, 2025 8:34:40 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Feb 22, 2025 8:34:41 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.02.22 20:35:16 INFO  no build target found for /home/ghost/Projects/Java/forward_me_this_clone/app/controllers/ForwardPostController.java. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.02.22 20:36:25 INFO  [success] Generated .bloop/forward_me_this_clone-build-build.json[0m
+2025.02.22 20:36:25 INFO  [success] Total time: 268 s (04:28), completed Feb 22, 2025, 8:36:25 PM[0m
+2025.02.22 20:36:26 INFO  [info] loading settings for project forward_me_this_clone-build from metals.sbt, plugins.sbt...[0m
+2025.02.22 20:36:26 INFO  [info] loading project definition from /home/ghost/Projects/Java/forward_me_this_clone/project[0m
+2025.02.22 20:37:22 ERROR Failed to resolve Scala 3 presentation compiler for 3.3.4
+java.util.concurrent.TimeoutException: Future timed out after [60 seconds]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryAwait0(Promise.scala:248)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:261)
+	at scala.concurrent.Await$.$anonfun$result$1(package.scala:201)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:62)
+	at scala.concurrent.Await$.result(package.scala:124)
+	at scala.meta.internal.metals.MtagsResolver$Default.fetch$1(MtagsResolver.scala:167)
+	at scala.meta.internal.metals.MtagsResolver$Default.fetch$1(MtagsResolver.scala:178)
+	at scala.meta.internal.metals.MtagsResolver$Default.fetch$1(MtagsResolver.scala:178)
+	at scala.meta.internal.metals.MtagsResolver$Default.fetch$1(MtagsResolver.scala:178)
+	at scala.meta.internal.metals.MtagsResolver$Default.fetch$1(MtagsResolver.scala:178)
+	at scala.meta.internal.metals.MtagsResolver$Default.fetch$1(MtagsResolver.scala:178)
+	at scala.meta.internal.metals.MtagsResolver$Default.$anonfun$resolve$8(MtagsResolver.scala:221)
+	at java.util.concurrent.ConcurrentHashMap.compute(ConcurrentHashMap.java:1916)
+	at scala.meta.internal.metals.MtagsResolver$Default.resolve(MtagsResolver.scala:219)
+	at scala.meta.internal.metals.MtagsResolver$Default.resolve(MtagsResolver.scala:120)
+	at scala.meta.internal.metals.CompilerConfiguration$StandaloneCompiler.<init>(CompilerConfiguration.scala:58)
+	at scala.meta.internal.metals.Compilers.$anonfun$fallbackCompiler$1(Compilers.scala:169)
+	at java.util.HashMap.compute(HashMap.java:1324)
+	at java.util.Collections$SynchronizedMap.compute(Collections.java:2990)
+	at scala.meta.internal.metals.Compilers.fallbackCompiler(Compilers.scala:146)
+	at scala.meta.internal.metals.Compilers.fromBuildTarget$1(Compilers.scala:1186)
+	at scala.meta.internal.metals.Compilers.loadCompiler(Compilers.scala:1200)
+	at scala.meta.internal.metals.Compilers.semanticdbTextDocument(Compilers.scala:1597)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$compile$1(InteractiveSemanticdbs.scala:143)
+	at scala.util.Try$.apply(Try.scala:217)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.compile(InteractiveSemanticdbs.scala:141)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$3(InteractiveSemanticdbs.scala:103)
+	at java.util.HashMap.compute(HashMap.java:1324)
+	at java.util.Collections$SynchronizedMap.compute(Collections.java:2990)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:93)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:54)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onChange$4(MetalsLspService.scala:930)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+[0m
+2025.02.22 20:39:48 INFO  no build target found for /home/ghost/Projects/Java/forward_me_this_clone/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.02.22 20:39:48 INFO  no build target found for /home/ghost/Projects/Java/forward_me_this_clone/app/controllers/ForwardPostController.java. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.02.22 20:39:48 INFO  no build target found for /home/ghost/Projects/Java/forward_me_this_clone/app/controllers/ForwardPostController.java. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.02.22 20:40:06 INFO  [success] Generated .bloop/forward_me_this_clone-build.json[0m
+2025.02.22 20:40:06 INFO  [success] Total time: 220 s (03:40), completed Feb 22, 2025, 8:40:06 PM[0m
+2025.02.22 20:40:10 INFO  [info] loading settings for project root from build.sbt...[0m
+2025.02.22 20:40:10 INFO  [info]   __              __[0m
+2025.02.22 20:40:10 INFO  [info]   \ \     ____   / /____ _ __  __[0m
+2025.02.22 20:40:10 INFO  [info]    \ \   / __ \ / // __ `// / / /[0m
+2025.02.22 20:40:10 INFO  [info]    / /  / /_/ // // /_/ // /_/ /[0m
+2025.02.22 20:40:10 INFO  [info]   /_/  / .___//_/ \__,_/ \__, /[0m
+2025.02.22 20:40:10 INFO  [info]       /_/               /____/[0m
+2025.02.22 20:40:10 INFO  [info] [0m
+2025.02.22 20:40:10 INFO  [info] Version 3.0.6 running Java 21.0.6[0m
+2025.02.22 20:40:10 INFO  [info] [0m
+2025.02.22 20:40:10 INFO  [info] Play is run entirely by the community. Please consider contributing and/or donating:[0m
+2025.02.22 20:40:10 INFO  [info] https://www.playframework.com/sponsors[0m
+2025.02.22 20:40:10 INFO  [info] [0m
+Feb 22, 2025 8:41:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+2025.02.22 20:41:51 INFO  no build target found for /home/ghost/Projects/Java/forward_me_this_clone/app/controllers/ForwardPostController.java. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.02.22 20:41:51 INFO  no build target found for /home/ghost/Projects/Java/forward_me_this_clone/app/controllers/ForwardPostController.java. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.02.22 20:41:51 INFO  no build target found for /home/ghost/Projects/Java/forward_me_this_clone/app/controllers/ForwardPostController.java. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.02.22 20:41:51 INFO  no build target found for /home/ghost/Projects/Java/forward_me_this_clone/app/controllers/ForwardPostController.java. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.02.22 20:41:51 INFO  no build target found for /home/ghost/Projects/Java/forward_me_this_clone/app/controllers/ForwardPostController.java. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.02.22 20:41:51 INFO  no build target found for /home/ghost/Projects/Java/forward_me_this_clone/app/controllers/ForwardPostController.java. Using presentation compiler with project's scala-library version: 3.3.4[0m
+Feb 22, 2025 8:41:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11
+2025.02.22 20:41:51 INFO  no build target found for /home/ghost/Projects/Java/forward_me_this_clone/app/controllers/ForwardPostController.java. Using presentation compiler with project's scala-library version: 3.3.4[0m
+Feb 22, 2025 8:41:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+2025.02.22 20:41:51 INFO  no build target found for /home/ghost/Projects/Java/forward_me_this_clone/app/controllers/ForwardPostController.java. Using presentation compiler with project's scala-library version: 3.3.4[0m
+Feb 22, 2025 8:41:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19
+2025.02.22 20:41:51 INFO  no build target found for /home/ghost/Projects/Java/forward_me_this_clone/app/controllers/ForwardPostController.java. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.02.22 20:41:51 INFO  no build target found for /home/ghost/Projects/Java/forward_me_this_clone/app/controllers/ForwardPostController.java. Using presentation compiler with project's scala-library version: 3.3.4[0m
+Feb 22, 2025 8:41:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 22
+Feb 22, 2025 8:41:52 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 22, 2025 8:41:52 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+2025.02.22 20:41:51 INFO  no build target found for /home/ghost/Projects/Java/forward_me_this_clone/app/controllers/ForwardPostController.java. Using presentation compiler with project's scala-library version: 3.3.4[0m
+Feb 22, 2025 8:41:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 25
+Feb 22, 2025 8:41:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+2025.02.22 20:41:51 INFO  no build target found for /home/ghost/Projects/Java/forward_me_this_clone/app/controllers/ForwardPostController.java. Using presentation compiler with project's scala-library version: 3.3.4[0m
+Feb 22, 2025 8:41:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 24
+2025.02.22 20:41:52 INFO  no build target found for /home/ghost/Projects/Java/forward_me_this_clone/app/controllers/ForwardPostController.java. Using presentation compiler with project's scala-library version: 3.3.4[0m
+Feb 22, 2025 8:41:52 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 22, 2025 8:42:14 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Feb 22, 2025 8:43:11 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 22, 2025 8:43:46 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+2025.02.22 20:47:16 INFO  [success] Generated .bloop/root.json[0m
+2025.02.22 20:47:16 INFO  [success] Generated .bloop/root-test.json[0m
+2025.02.22 20:47:16 INFO  [success] Total time: 426 s (07:06), completed Feb 22, 2025, 8:47:16 PM[0m
+2025.02.22 20:47:17 INFO  time: ran 'sbt bloopInstall' in 15m55s[0m
+2025.02.22 20:47:17 INFO  Attempting to connect to the build server...[0m
+2025.02.22 20:47:17 INFO  No running Bloop server found, starting one.[0m
+Feb 22, 2025 8:51:55 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Feb 22, 2025 8:57:12 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+2025.02.22 20:58:11 INFO  no build target found for /home/ghost/Projects/Java/forward_me_this_clone/app/controllers/ForwardPostController.java. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.02.22 20:58:11 INFO  no build target found for /home/ghost/Projects/Java/forward_me_this_clone/app/controllers/ForwardPostController.java. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.02.22 20:58:16 INFO  no build target found for /home/ghost/Projects/Java/forward_me_this_clone/app/controllers/ForwardPostController.java. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.02.22 20:58:21 INFO  no build target found for /home/ghost/Projects/Java/forward_me_this_clone/app/controllers/ForwardPostController.java. Using presentation compiler with project's scala-library version: 3.3.4[0m
+Feb 22, 2025 8:58:23 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ghost/Projects/Java/forward_me_this_clone/.metals/.reports/metals-full/2025-02-22/r_compiler-error_20-58-23-886.md
+Feb 22, 2025 8:58:29 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 22, 2025 8:59:05 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 22, 2025 9:00:53 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 22, 2025 9:01:21 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 22, 2025 9:01:24 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 22, 2025 9:01:29 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+2025.02.22 21:01:32 INFO  no build target found for /home/ghost/Projects/Java/forward_me_this_clone/app/controllers/ForwardPostController.java. Using presentation compiler with project's scala-library version: 3.3.4[0m
+Feb 22, 2025 9:01:32 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ghost/Projects/Java/forward_me_this_clone/.metals/.reports/metals-full/2025-02-22/r_compiler-error_21-01-32-770.md
+2025.02.22 21:01:32 INFO  no build target found for /home/ghost/Projects/Java/forward_me_this_clone/app/controllers/ForwardPostController.java. Using presentation compiler with project's scala-library version: 3.3.4[0m
+Feb 22, 2025 9:01:33 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ghost/Projects/Java/forward_me_this_clone/.metals/.reports/metals-full/2025-02-22/r_compiler-error_21-01-33-102.md
+2025.02.22 21:01:34 INFO  no build target found for /home/ghost/Projects/Java/forward_me_this_clone/app/controllers/ForwardPostController.java. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.02.22 21:01:34 INFO  no build target found for /home/ghost/Projects/Java/forward_me_this_clone/app/controllers/ForwardPostController.java. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.02.22 21:01:34 INFO  no build target found for /home/ghost/Projects/Java/forward_me_this_clone/app/controllers/ForwardPostController.java. Using presentation compiler with project's scala-library version: 3.3.4[0m
+Feb 22, 2025 9:01:35 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ghost/Projects/Java/forward_me_this_clone/.metals/.reports/metals-full/2025-02-22/r_compiler-error_21-01-35-312.md
+Feb 22, 2025 9:01:35 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ghost/Projects/Java/forward_me_this_clone/.metals/.reports/metals-full/2025-02-22/r_compiler-error_21-01-35-351.md
+2025.02.22 21:01:34 INFO  no build target found for /home/ghost/Projects/Java/forward_me_this_clone/app/controllers/ForwardPostController.java. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.02.22 21:01:54 INFO  no build target found for /home/ghost/Projects/Java/forward_me_this_clone/app/controllers/ForwardPostController.java. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.02.22 21:01:54 INFO  no build target found for /home/ghost/Projects/Java/forward_me_this_clone/app/controllers/ForwardPostController.java. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.02.22 21:01:56 INFO  no build target found for /home/ghost/Projects/Java/forward_me_this_clone/app/controllers/ForwardPostController.java. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.02.22 21:01:56 INFO  no build target found for /home/ghost/Projects/Java/forward_me_this_clone/app/controllers/ForwardPostController.java. Using presentation compiler with project's scala-library version: 3.3.4[0m
+Feb 22, 2025 9:01:57 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ghost/Projects/Java/forward_me_this_clone/.metals/.reports/metals-full/2025-02-22/r_compiler-error_21-01-57-342.md
+Feb 22, 2025 9:02:06 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+2025.02.22 21:02:20 INFO  Starting compilation server[0m
+2025.02.22 21:02:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ghost/Projects/Java/forward_me_this_clone/.metals/bsp.trace.json or /home/ghost/.cache/metals/bsp.trace.json[0m
+2025.02.22 21:02:42 ERROR Timeout waiting for 'build/initialize' response[0m
+2025.02.22 21:02:42 WARN  Retrying connection to the build server Bloop[0m
+2025.02.22 21:02:42 INFO  Found a Bloop server running[0m
+2025.02.22 21:02:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ghost/Projects/Java/forward_me_this_clone/.metals/bsp.trace.json or /home/ghost/.cache/metals/bsp.trace.json[0m
+2025.02.22 21:03:02 ERROR Timeout waiting for 'build/initialize' response[0m
+2025.02.22 21:03:02 WARN  Retrying connection to the build server Bloop[0m
+2025.02.22 21:03:02 INFO  Found a Bloop server running[0m
+2025.02.22 21:03:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ghost/Projects/Java/forward_me_this_clone/.metals/bsp.trace.json or /home/ghost/.cache/metals/bsp.trace.json[0m
+2025.02.22 21:03:22 ERROR Timeout waiting for 'build/initialize' response[0m
+2025.02.22 21:03:22 WARN  Retrying connection to the build server Bloop[0m
+2025.02.22 21:03:22 INFO  Found a Bloop server running[0m
+2025.02.22 21:03:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ghost/Projects/Java/forward_me_this_clone/.metals/bsp.trace.json or /home/ghost/.cache/metals/bsp.trace.json[0m
+2025.02.22 21:03:42 ERROR Timeout waiting for 'build/initialize' response[0m
+2025.02.22 21:03:42 WARN  Retrying connection to the build server Bloop[0m
+2025.02.22 21:03:42 INFO  Found a Bloop server running[0m
+2025.02.22 21:03:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ghost/Projects/Java/forward_me_this_clone/.metals/bsp.trace.json or /home/ghost/.cache/metals/bsp.trace.json[0m
+2025.02.22 21:04:02 ERROR Timeout waiting for 'build/initialize' response[0m
+2025.02.22 21:04:02 WARN  Retrying connection to the build server Bloop[0m
+2025.02.22 21:04:02 INFO  Found a Bloop server running[0m
+2025.02.22 21:04:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ghost/Projects/Java/forward_me_this_clone/.metals/bsp.trace.json or /home/ghost/.cache/metals/bsp.trace.json[0m
+2025.02.22 21:04:23 ERROR Timeout waiting for 'build/initialize' response[0m
+2025.02.22 21:04:23 ERROR Bloop server PID: 364642
+Ignoring SIGINT
+Will truncate output file /home/ghost/snap/code/184/.local/share/scalacli/bloop/daemon/output every 5 minutes
+Unable to load nailgun-version.properties.
+NGServer [UNKNOWN] started on local socket /home/ghost/snap/code/184/.local/share/scalacli/bloop/daemon/socket.
+/home/ghost/snap/code/184/.local/share/scalacli/bloop
+/home/ghost/snap/code/184/.local/share/scalacli/bloop
+/home/ghost/snap/code/184/.local/share/scalacli/bloop
+/home/ghost/snap/code/184/.local/share/scalacli/bloop
+/home/ghost/snap/code/184/.local/share/scalacli/bloop
+/home/ghost/snap/code/184/.local/share/scalacli/bloop
+/home/ghost/snap/code/184/.local/share/scalacli/bloop
+/home/ghost/snap/code/184/.local/share/scalacli/bloop
+/home/ghost/snap/code/184/.local/share/scalacli/bloop
+/home/ghost/snap/code/184/.local/share/scalacli/bloop
+/home/ghost/snap/code/184/.local/share/scalacli/bloop
+/home/ghost/snap/code/184/.local/share/scalacli/bloop
+[0m
+2025.02.22 21:04:23 ERROR Failed to connect with build server, no functionality will work.
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at scala.meta.internal.metals.BuildServerConnection$.initialize(BuildServerConnection.scala:755)
+	at scala.meta.internal.metals.BuildServerConnection$.$anonfun$fromSockets$1(BuildServerConnection.scala:630)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+[0m
+Feb 22, 2025 9:08:59 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Feb 22, 2025 9:12:10 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Feb 22, 2025 9:12:19 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 22, 2025 9:16:19 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Feb 22, 2025 9:23:46 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 22, 2025 9:23:51 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+2025.02.22 21:23:59 INFO  no build target found for /home/ghost/Projects/Java/forward_me_this_clone/app/controllers/ForwardPostController.java. Using presentation compiler with project's scala-library version: 3.3.4[0m
+Feb 22, 2025 9:24:23 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 22, 2025 9:24:32 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+2025.02.22 21:24:32 INFO  no build target found for /home/ghost/Projects/Java/forward_me_this_clone/app/controllers/ForwardPostController.java. Using presentation compiler with project's scala-library version: 3.3.4[0m
+Feb 22, 2025 9:24:39 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 22, 2025 9:25:22 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 22, 2025 9:25:56 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 22, 2025 9:26:35 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 22, 2025 9:45:37 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 22, 2025 9:45:49 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 22, 2025 9:47:46 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 22, 2025 9:47:52 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
